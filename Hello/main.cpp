@@ -1,3 +1,5 @@
+//Вывести Hello Horld
+
 #include <stdio.h>
 
 int main()
