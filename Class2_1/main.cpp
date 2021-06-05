@@ -1,10 +1,15 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
-    int a;
+    double a;
     printf("Please enter a: ");
-    scanf("%d", &a);
-    printf("a is:\t%d\n", a);
+    scanf("%lf", &a);
+    printf("cos( a ) is:\t%f\n", cos( a ));
+
+    printf("PI is:\t%f\n", M_PI);
+
+    printf("log( a ) is:\t%f\n", log( a ));
     return 0;
 }
